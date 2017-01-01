@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<phpunit>
+    <php>
+        <var name="DB_DSN" value="mysql:dbname=myguestbook_db;host=localhost" />
+        <var name="DB_USER" value="myguestbook_usr" />
+        <var name="DB_PASSWD" value="MyGuestbook1" />
+        <var name="DB_DBNAME" value="myguestbook_db" />
+    </php>
+</phpunit>

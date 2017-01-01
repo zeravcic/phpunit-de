@@ -1,0 +1,43 @@
+language: php
+
+#versions
+php:
+#  - '5.4'
+#  - '5.5'
+#  - '5.6'
+#  - '7.0'
+  - 7.1
+#  - hhvm
+#  - nightly
+
+sudo: false
+
+matrix:
+  fast_finish: true
+  allow_failures:
+    - php: hhvm
+
+cache:
+  directories:
+    - $HOME/.composer/cache
+
+before_script:
+  #- composer self-update
+  #- composer clear-cache
+  #- composer update
+  - composer install --prefer-dist --no-interaction
+  #- find . -type f -name *.csv -exec chmod 777 {} +
+  #- mkdir build
+
+
+#script: phpunit tests/*
+script:
+  #script to setup the package for testing
+  - phpunit --debug  --coverage-text
+  - php -r 'echo __DIR__ . "\n";print_r(scandir(__DIR__));'
+
+after_script:
+  #- php vendor/bin/coveralls -v
+
+notifications:
+  email: false

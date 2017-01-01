@@ -1,0 +1,39 @@
+{
+  "name": "zeravcic/phpunit-de",
+  "type": "library",
+  "description": "Examples from https://phpunit.de/ (2016, Sebastian Bergmann)",
+  "keywords": [
+    "zeravcic",
+    "bytenet",
+    "TDD",
+    "tests",
+    "Test Driven Development",
+    "Sebastian Bergmann"
+  ],
+  "minimum-stability": "stable",
+  "homepage": "https://github.com/Zeravcic/phpunit-de",
+  "require": {
+    "php" : "~5.5|~7.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit" : "5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Zeravcic\\PhpUnit_De\\": "src"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Zeravcic\\PhpUnit_De\\Tests\\": "tests"
+    }
+  },
+  "scripts": {
+    "test": "phpunit"
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
