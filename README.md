@@ -1,11 +1,7 @@
-# phpunit-de
-
-
 # PHPUnit by Sebastian Bergmann
 
 ## Examples from https://phpunit.de/
 
-[![Software License][ico-license]](LICENSE.md)
 [![Build Status][ico-travis]][link-travis]
 
 PHPUnit is a programmer-oriented testing framework for PHP. It is an instance of the xUnit architecture for unit testing frameworks.
