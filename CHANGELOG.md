@@ -5,7 +5,11 @@ All Notable changes to `zeravcic\phpunit-de` project will be documented in this 
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
-## 0.1.0 - 2016-12-31
+## [0.1.1] - 2017-01-01
+### Changed
+- README.md
+
+## 0.1.0 - 2017-01-01
 ### Added
 - src/index.php
 - tests/chapter02/ArrayWeakComparisonTest.php
@@ -68,3 +72,6 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 - CHANGELOG.md
 - phpunit.xml
 - README.md
+
+[0.1.1]: https://github.com/zeravcic/phpunit-de/compare/v0.1.0...v0.1.1
+
