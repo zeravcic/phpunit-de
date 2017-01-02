@@ -5,6 +5,39 @@ All Notable changes to `zeravcic\phpunit-de` project will be documented in this 
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.2.0] - 2017-01-03
+### Added
+- tests/chapter09/AbstractClass.php
+- test/chapter09/AbstractClassTest.php
+- test/chapter09/AbstractTrait.php
+- test/chapter09/Example.php
+- test/chapter09/Example2Test.php
+- test/chapter09/ExampleTest.php
+- test/chapter09/Foo2Test.php
+- test/chapter09/Foo3Test.php
+- test/chapter09/FooTest.php
+- test/chapter09/GoogleTest.php
+- test/chapter09/Observer.php
+- test/chapter09/SomeClass.php
+- test/chapter09/Stub2Test.php
+- test/chapter09/Stub3Test.php
+- test/chapter09/Stub4Test.php
+- test/chapter09/Stub5Test.php
+- test/chapter09/Stub6Test.php
+- test/chapter09/Stub7Test.php
+- test/chapter09/Stub8Test.php
+- test/chapter09/Stub9Test.php
+- test/chapter09/StubTest.php
+- test/chapter09/Subject.php
+- test/chapter09/Subject2Test.php
+- test/chapter09/Subject3Test.php
+- test/chapter09/Subject4Test.php
+- test/chapter09/SubjectTest.php
+- test/chapter09/TraitClassTest.php
+
+### Changed
+- composer.json
+
 ## [0.1.1] - 2017-01-01
 ### Changed
 - README.md
@@ -70,8 +103,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 - .gitignore
 - .travis.yml
 - CHANGELOG.md
+- composer.json
 - phpunit.xml
 - README.md
 
+[0.2.0]: https://github.com/zeravcic/phpunit-de/compare/v0.1.1...v0.2.0
 [0.1.1]: https://github.com/zeravcic/phpunit-de/compare/v0.1.0...v0.1.1
 
