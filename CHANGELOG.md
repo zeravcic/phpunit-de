@@ -5,6 +5,13 @@ All Notable changes to `zeravcic\phpunit-de` project will be documented in this 
 
 The format is based on [Keep a Changelog](http://keepachangelog.com/) and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [0.3.0] - 2017-01-06
+### Added
+- tests/chapter11/BankAccountTest.php
+- tests/chapter11/EdgeCases.php
+- tests/chapter11/FooTest.php
+- tests/chapter11/GuestbookIntegrationTest.php
+
 ## [0.2.0] - 2017-01-03
 ### Added
 - tests/chapter09/AbstractClass.php
@@ -107,6 +114,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/) and this p
 - phpunit.xml
 - README.md
 
+[0.3.0]: https://github.com/zeravcic/phpunit-de/compare/v0.2.0...v0.3.0
 [0.2.0]: https://github.com/zeravcic/phpunit-de/compare/v0.1.1...v0.2.0
 [0.1.1]: https://github.com/zeravcic/phpunit-de/compare/v0.1.0...v0.1.1
 
